@@ -1,0 +1,14 @@
+.divtextobiblico {
+  background-color: rgba(255, 166, 0, 0.425);
+  padding: 10%;
+  border-radius: 5px;
+}
+.reflexiones {
+  background-color: rgba(0, 183, 255, 0.425);
+  padding: 5%;
+  border-radius: 5px;
+  font-size: 20px;
+}
+ul {
+  font-weight: bold;
+}

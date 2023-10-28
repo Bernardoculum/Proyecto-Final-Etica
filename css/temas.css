@@ -1,0 +1,68 @@
+.costumdiv {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+/* .imgtema3 {
+  height: 80%;
+  width: 80%;
+} */
+
+.img-content {
+  border-radius: 8px;
+  height: 80%;
+  width: 80%;
+}
+.imgpersonaje {
+  border-radius: 8px;
+  height: 15rem;
+  width: 15rem;
+}
+.imgpersonaje2 {
+  border-radius: 8px;
+  height: 15rem;
+  width: 15rem;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+header {
+  background-color: rgb(2, 21, 31);
+}
+footer {
+  background-color: rgb(2, 21, 31);
+}
+/* -------------------------------------------------*/
+ul {
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s;
+  color: white;
+}
+.nav-link:hover {
+  color: aqua;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s;
+}
+
+.nav-link:hover::before {
+  transform: scaleX(1);
+}
+p {
+  font-size: 20px;
+}
